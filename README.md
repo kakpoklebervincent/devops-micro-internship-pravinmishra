@@ -14,7 +14,7 @@
 | | |
 |---|---|
 | **Name** | Kleber Vincent(Kakpo) |
-| **LinkedIn**| [Kleber Vincent(Kakpo):Cloud Computing-DevOPs-Telecoms](www.linkedin.com/in/vincent-kleber-kakpo-8b920b88)|
+| **LinkedIn**| [Kleber Vincent(Kakpo):Cloud Computing-DevOPs-Telecoms](https://www.linkedin.com/in/vincent-kleber-kakpo-8b920b88)|
 | **Location** | Lagos,Nigeria |
 | **Background** | Cloud, DevOps & Telecoms|
 | **Goal** | DevOps professionals*Open RAN and Kubernetes |
