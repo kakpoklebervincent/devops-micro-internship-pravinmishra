@@ -13,11 +13,11 @@
 
 | | |
 |---|---|
-| **Name** | Pravin Mishra |
-| **LinkedIn** | [pravin-mishra-aws-trainer](https://www.linkedin.com/in/pravin-mishra-aws-trainer/) |
-| **Location** | Helsinki, Finland |
-| **Background** | Cloud, DevOps & AI Consultant |
-| **Goal** | Train 10,000+ DevOps professionals |
+| **Name** | Kleber Vincent(Kakpo) |
+| **LinkedIn**| [Kleber Vincent(Kakpo):Cloud Computing-DevOPs-Telecoms](www.linkedin.com/in/vincent-kleber-kakpo-8b920b88)|
+| **Location** | Lagos,Nigeria |
+| **Background** | Cloud, DevOps & Telecoms|
+| **Goal** | DevOps professionals*Open RAN and Kubernetes |
 
 ---
 
@@ -133,7 +133,7 @@ This is not a course. It is an internship-style program — real deployments, re
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
 | 00 | Internet & Networking Basics | ⬜ Not Started | ⏳ Pending | — | — |
-| 01 | Success Mindset | ⬜ Not Started | ⏳ Pending | — | — |
+| 01 | Success Mindset | ✅ Completed | ✅ Solved | [Reflection Post](https://www.linkedin.com/posts/vincent-kleber-kakpo-8b920b88_devops-cloudcomputing-agenticai-share-7477020812269572096-b-Eh/) / [2.0 Version Post](https://lnkd.in/p/dUwXSiNg) | – |
 | 02 | Agentic AI with Claude Code | ⬜ Not Started | ⏳ Pending | — | — |
 | 03 | Linux for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
 | 04 | Bash Scripting | ⬜ Not Started | ⏳ Pending | — | — |
