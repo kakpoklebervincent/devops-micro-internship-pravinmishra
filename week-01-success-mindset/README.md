@@ -171,7 +171,7 @@ Paste your link here:
 
 [Keber version2.0](https://lnkd.in/p/dUwXSiNg)
 
-[linkedinpostscreenshot3](devops-micro-internship-pravinmishra\week-01-success-mindset\screenshots)
+[Linkedinpostscreenshot](screenshots/assignment3_version2_post.png)
 
 
 
