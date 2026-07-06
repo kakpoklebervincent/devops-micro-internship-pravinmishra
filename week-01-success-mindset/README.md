@@ -415,6 +415,8 @@ Paste your LinkedIn post link here:
 
 [Reflection Post](https://lnkd.in/p/dp-n2W3u)
 
+[Linkedinpostscreenshot](screenshots/assignment7_reflection_post.png)
+
 
 
 ## 10. Proof of Work
