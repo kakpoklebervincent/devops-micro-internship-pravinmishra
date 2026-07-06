@@ -172,38 +172,6 @@ Paste your link here:
 [Keber version2.0](https://lnkd.in/p/dUwXSiNg)
 
 [linkedinpostscreenshot3](assignment3_version2_post)
-warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
-
-USER@Kleber-Vincent MINGW64 ~/Documents/DMI3/Mastering-Claude-Code-Agentic-AI (main)
-$ git status
-On branch main
-
-No commits yet
-
-Changes to be committed:
-  (use "git rm --cached <file>..." to unstage)
-        new file:   README.md
-
-
-USER@Kleber-Vincent MINGW64 ~/Documents/DMI3/Mastering-Claude-Code-Agentic-AI (main)
-$ git commit -m "Initialize repository with professional project README"
-[main (root-commit) 6cb9e3a] Initialize repository with professional project README
- 1 file changed, 262 insertions(+)
- create mode 100644 README.md
-
-USER@Kleber-Vincent MINGW64 ~/Documents/DMI3/Mastering-Claude-Code-Agentic-AI (main)
-$ git push origin main
-Enumerating objects: 3, done.
-Counting objects: 100% (3/3), done.
-Delta compression using up to 4 threads
-Compressing objects: 100% (2/2), done.
-Writing objects: 100% (3/3), 2.01 KiB | 2.01 MiB/s, done.
-Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
-To https://github.com/kakpoklebervincent/Mastering-Claude-Code-Agentic-AI.git
- * [new branch]      main -> main
-
-USER@Kleber-Vincent MINGW64 ~/Documents/DMI3/Mastering-Claude-Code-Agentic-AI (main)
-$ 
 
 
 
