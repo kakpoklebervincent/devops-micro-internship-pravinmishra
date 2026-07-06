@@ -18,7 +18,7 @@ Capture Claude’s response before `CLAUDE.md` exists in the project to establis
 
 ### Evidence
 
-#### Screenshot 1 — Claude’s generic response before CLAUDE.md exists (project contains only index.html, style.css and images/)
+#### Screenshot 1 — Claude’s generic response before CLAUDE.md exists (project contains only `index.html`, `style.css`, `images/`, `README.MD`, `privacy.html`, `terms.html`)
 
 Add your screenshot here.
 

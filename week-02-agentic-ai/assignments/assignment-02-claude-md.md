@@ -63,7 +63,7 @@ Each task must be completed sequentially.
 
 **Steps:**
 1. Open Claude Code in your project
-2. Confirm there is no CLAUDE.md file (the project should only have `index.html`, `style.css`, `images/`)
+2. Confirm there is no CLAUDE.md file (the project should only have `index.html`, `style.css`, `images/`, `README.MD`, `privacy.html`, `terms.html`)
 3. Ask this exact question: `"What is this project and how should I deploy it?"`
 4. Screenshot the response — it will be generic and vague
 
@@ -75,7 +75,7 @@ What is this project and how should I deploy it?
 **Expected Output:** Claude gives a generic answer. It can see HTML and CSS but has no idea about S3, CloudFront, or Terraform.
 
 **Screenshots Required:**
-- Screenshot 1 — Claude’s generic response before CLAUDE.md exists (project contains only index.html, style.css and images/)
+- Screenshot 1 — Claude’s generic response before CLAUDE.md exists (project contains only `index.html`, `style.css`, `images/`, `README.MD`, `privacy.html`, `terms.html`)
 
 ---
 
