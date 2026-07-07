@@ -14,15 +14,15 @@ In this assignment, you will set up your local development environment for Agent
 
 ## Goal
 
-Install the Claude Code CLI globally and authenticate it using your Anthropic account.
+Install the Claude Code CLI globally and authenticate it using your Anthropic account:
+
+I successfully installed the Claude Code CLI globally using npm, verified that the installation was successful by checking the version number, and authenticated my Anthropic account. After signing in through the browser, Claude Code launched successfully and was ready for use.
 
 ### Evidence
 
 #### Screenshot 1 — Claude Code version check
 
-Add your screenshot here.
-
----
+[Claude Code version check](week-02-agentic-ai/screenshots/Terminal-claude-version-check-output.png)
 
 #### Screenshot 2 — Claude Code authenticated in terminal
 
