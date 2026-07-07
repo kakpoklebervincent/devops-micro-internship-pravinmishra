@@ -22,11 +22,11 @@ I successfully installed the Claude Code CLI globally using npm, verified that t
 
 #### Screenshot 1 — Claude Code version check
 
-[Claude Code version check](week-02-agentic-ai/screenshots/Terminal-claude-version-check-output.png)
+[Claude Code version check](screenshots/Terminal-claude-version-check-output.png)
 
 #### Screenshot 2 — Claude Code authenticated in terminal
 
-Add your screenshot here.
+[Claude Code authenticated](screenshots/Claude%20Code%20authenticated%20and%20showing%20the%20terminal%20prompt.png)
 
 ---
 
@@ -34,35 +34,40 @@ Add your screenshot here.
 
 ## Goal
 
-Fork the provided GitHub repository, clone it to your local machine, and open it in VS Code.
+Fork the provided GitHub repository, clone it to your local machine, and open it in VS Code:
+
+I forked the starter repository to my GitHub account, cloned it to my local machine, and opened the project in Visual Studio Code. I confirmed that the project files were available and ready for the next set of tasks.
+
 
 ### Evidence
 
 #### Screenshot 3 — Project opened in VS Code
 
-Add your screenshot here.
+[Project in VS code](screenshots/VS-Code-with-project-open.png)
 
----
+
 
 # Task 3 — Observe the Agentic Loop
 
 ## Goal
 
-Interact with Claude Code and observe how it performs the Agentic Loop (Gather → Act → Verify) while answering project-related questions.
+Interact with Claude Code and observe how it performs the Agentic Loop (Gather → Act → Verify) while answering project-related questions:
+
+I launched Claude Code from the VS Code terminal and completed the two required prompts. Claude Code first examined the project files and explained their purpose, then executed a command to count the number of lines in the CSS file. This demonstrated the Gather, Act, and Verify workflow in action.
+
 
 ### Evidence
 
 #### Screenshot 4 — Claude reading project files and responding
 
-Add your screenshot here.
+[Claude reading projecT file](screenshots/Claude's-response-to-the-first-question.png)
 
----
 
 #### Screenshot 5 — Claude executing command to count CSS lines
 
-Add your screenshot here.
+[Claude executing command](screenshots/Claude's-response-to-second-question.png)
 
----
+
 
 # Submission Instructions
 
@@ -76,7 +81,7 @@ Add your screenshot here.
 
 Paste your forked repository URL here:
 
-`__________________________`
+[Forked Repo](https://github.com/kakpoklebervincent/Ultimate-Agentic-DevOps-with-Claude-Code)
 
 ---
 
