@@ -87,9 +87,10 @@ I started a new Claude Code session to verify that the updated CLAUDE.md was bei
 
 Paste your forked repository URL here:
 
-`__________________________`
+[Forked Repo URL](https://github.com/kakpoklebervincent/Ultimate-Agentic-DevOps-with-Claude-Code)
 
----
+
+
 
 # Completion Checklist
 
