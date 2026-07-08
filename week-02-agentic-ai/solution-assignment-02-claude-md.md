@@ -14,63 +14,66 @@ In this assignment, you will create and customize a `CLAUDE.md` file for your pr
 
 ## Goal
 
-Capture Claude’s response before `CLAUDE.md` exists in the project to establish a baseline behavior.
+Capture Claude’s response before `CLAUDE.md` exists in the project to establish a baseline behavior:
+
+The downloaded repository already contained a CLAUDE.md file (This was visible is the assignment-01), so I removed it to comply with the assignment requirement. After confirming the project no longer had a CLAUDE.md file, I asked Claude Code to describe the project and deployment approach. As expected, the response was generic because no project specific guidance had been provided.
 
 ### Evidence
 
 #### Screenshot 1 — Claude response before CLAUDE.md
+[Claude response before CLAUDE](screenshots/Claude-Response-Without-Cloud-Md.png)
 
-Add your screenshot here.
-
----
 
 # Task 2 — Generate the First Draft with /init
 
 ## Goal
 
-Generate an initial `CLAUDE.md` file using the `/init` command and review the auto-generated content.
+Generate an initial `CLAUDE.md` file using the `/init` command and review the auto-generated content:
+
+I used the /init command to generate a starter CLAUDE.md file and reviewed the automatically generated project instructions in Visual Studio Code.
 
 ### Evidence
 
 #### Screenshot 2 — Auto-generated CLAUDE.md
 
-Add your screenshot here.
+[Generated Claude.md](screenshots/Claude.md-Generated-in-VSCode.png)
 
----
 
 # Task 3 — Customize the CLAUDE.md
 
 ## Goal
 
-Update the generated `CLAUDE.md` file by adding project-specific instructions across all required sections.
+Update the generated `CLAUDE.md` file by adding project-specific instructions across all required sections:
+
+I customized the generated CLAUDE.md by updating the project overview, architecture, commands, conventions, and safety sections with project specific guidance so Claude Code could better understand the repository and follow the required development practices.
 
 ### Evidence
 
 #### Screenshot 3 — Customized CLAUDE.md (all 5 sections visible)
 
-Add your screenshot here.
+[Customized Claude.md](screenshots/customized%20CLAUDE.md%20in%20VS.PNG)
 
----
 
 # Task 4 — Test the After State
 
 ## Goal
 
-Verify that Claude’s behavior changes after adding `CLAUDE.md` by running a new session and comparing responses before and after context is applied.
+Verify that Claude’s behavior changes after adding `CLAUDE.md` by running a new session and comparing responses before and after context is applied:
+
+I started a new Claude Code session to verify that the updated CLAUDE.md was being applied. Claude correctly identified the project's AWS deployment architecture and refused to add a React component because it would violate the project's "No JavaScript" convention.
 
 ### Evidence
 
 #### Screenshot 4 — Claude response with project-specific deployment details
 
-Add your screenshot here.
+[Claude Respond to project spec](screenshots/CLAUDE.md-Answering-Question.png)
 
----
 
 #### Screenshot 5 — Claude response rejecting React/component change based on rules
 
-Add your screenshot here.
+[Claude Rejecting prompt](screenshots/Claude-refusing-against-adding-React.png)
 
----
+
 
 # Submission Instructions
 
