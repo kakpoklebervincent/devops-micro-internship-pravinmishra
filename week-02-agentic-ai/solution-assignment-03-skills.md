@@ -14,55 +14,64 @@ In this assignment, you will build a local Claude Skills system by creating the 
 
 ## Goal
 
-Create the required `.claude/skills/` directory structure for all skills.
+Create the required `.claude/skills/` directory structure for all skills:
+
+**What I Did**
+
+I created the required .claude/skills directory and added the four skill folders: scaffold-terraform, tf-plan, tf-apply, and deploy. After creating the folders, I verified the structure in the VS Code Explorer to ensure it matched the assignment requirements.
+
 
 ### Evidence
 
 #### Screenshot 1 — Skills folder structure in VS Code
 
-Add your screenshot here.
+[Skills Structure](screenshots/VSCode-sidebar-showing-.claude-skills.png)
 
----
+
 
 # Task 2 — Add the Skill Files
 
 ## Goal
 
-Place all required skill files into their correct directories and verify their configuration.
+Place all required skill files into their correct directories and verify their configuration:
+
+**What I Did**
+
+I moved the downloaded skill files into their respective folders and renamed them as instructed. I then opened the tf-plan/SKILL.md file to review its frontmatter and confirmed that it was configured with the appropriate tool permissions and model invocation settings.
 
 ### Evidence
 
 #### Screenshot 2 — scaffold-terraform skill folder contents
 
-Add your screenshot here.
-
----
+[ scaffold-terraform Folder Contents](screenshots/VSCode-showing-SKILL.md-and-template-specV1.png)
 
 #### Screenshot 3 — tf-plan/SKILL.md showing allowed-tools restrictions
 
-Add your screenshot here.
+[tf-plan Folder Content](screenshots/VSCode-showing-tf-plan-SKILLV1.png)
 
----
+
 
 # Task 3 — Run /scaffold-terraform
 
 ## Goal
 
-Execute the `/scaffold-terraform` skill to generate a full Terraform infrastructure setup.
+Execute the `/scaffold-terraform` skill to generate a full Terraform infrastructure setup:
+
+**What I Did**
+
+I executed the /scaffold-terraform skill in Claude Code. The skill automatically generated the required Terraform configuration files, including providers.tf, variables.tf, main.tf, outputs.tf, and backend.tf. I verified that all the generated files were successfully created in the terraform folder.
 
 ### Evidence
 
 #### Screenshot 4 — Claude scaffold execution result
 
-Add your screenshot here.
-
----
+[Generated Terraform with File](screenshots/Scaffold-Terraform-complete-with-the-file-list.png)
 
 #### Screenshot 5 — Generated terraform/ folder with all files
 
-Add your screenshot here.
+[Generated terraform folder/files](screenshots/Terraform-folder-with-all-generated-files.png)
 
----
+
 
 # Task 4 — Run terraform init and /tf-plan
 
@@ -74,9 +83,9 @@ Initialize Terraform and execute the `/tf-plan` skill to observe plan execution 
 
 #### Screenshot 6 — /tf-plan execution and Claude analysis output
 
-Add your screenshot here.
+[tf-plan execution and Claude analysis](screenshots/Claude's-tf-plan-response.png)
 
----
+
 
 # Submission Instructions
 
@@ -90,9 +99,9 @@ Add your screenshot here.
 
 Paste your forked repository URL here:
 
-`__________________________`
+[forked repository URL](https://github.com/kakpoklebervincent/Ultimate-Agentic-DevOps-with-Claude-Code.git)
 
----
+
 
 # Completion Checklist
 
