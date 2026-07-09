@@ -14,71 +14,89 @@ In this assignment, you will connect Claude Code to external systems using MCP (
 
 ## Goal
 
-Generate a GitHub Personal Access Token (PAT) that will be used for MCP authentication.
+Generate a GitHub Personal Access Token (PAT) that will be used for MCP authentication:
+
+**What I did**
+
+I created a GitHub Personal Access Token (PAT) to securely authenticate the GitHub MCP server with my GitHub account. I configured the token with the required repo and read:user permissions and kept the token private by ensuring it was never exposed in any screenshots or shared publicly.
 
 ### Evidence
 
 #### Screenshot 1 — GitHub token creation (scopes only)
 
-Add your screenshot here.
+[Github PAT Creation Page](screenshots/GitHub-token-creation-page.PNG)
 
----
+
 
 # Task 2 — Create .mcp.json at the Project Root
 
 ## Goal
 
-Create and configure the `.mcp.json` file to define the GitHub MCP server.
+Create and configure the `.mcp.json` file to define the GitHub MCP server:
+
+**What I did**
+
+I created the .mcp.json file in the project root and configured the GitHub MCP server. This file serves as the shared project configuration that tells Claude Code how to connect to GitHub through the Model Context Protocol whenever the project is opened.
 
 ### Evidence
 
 #### Screenshot 2 — .mcp.json configuration in VS Code
 
-Add your screenshot here.
+[.mcp.json configuration](screenshots/mcp.json-open-in-VSCode.PNG)
 
----
 
 # Task 3 — Add Your Token to settings.local.json
 
 ## Goal
 
-Store your GitHub token securely in `.claude/settings.local.json` and ensure it is not committed to version control.
+Store your GitHub token securely in `.claude/settings.local.json` and ensure it is not committed to version control:
+
+**What I did**
+
+I created the .claude/settings.local.json file to securely store my GitHub Personal Access Token and enabled the GitHub MCP server for the project. I also updated my .gitignore file to exclude this local configuration from version control, ensuring that my personal credentials remain private and are never committed to GitHub.
 
 ### Evidence
 
 #### Screenshot 3 — settings.local.json (token hidden/blurred)
 
-Add your screenshot here.
+[settings.local.json](screenshots/settings.local.json-open-in-VSCode.PNG)
 
----
+
 
 # Task 4 — Verify the Connection with /mcp
 
 ## Goal
 
-Confirm that the GitHub MCP server is successfully connected inside Claude Code.
+Confirm that the GitHub MCP server is successfully connected inside Claude Code:
+
+**What I did**
+
+After restarting Claude Code to load the new MCP configuration, I verified the connection by running the /mcp command. The GitHub MCP server showed a connected status with all available tools, confirming that Claude Code could successfully communicate with my GitHub account through the Model Context Protocol.
 
 ### Evidence
 
 #### Screenshot 4 — /mcp output showing GitHub connected
 
-Add your screenshot here.
+[mcp output GitHub connected](screenshots/MCP-output-showing-github-connected.png)
 
----
+
 
 # Task 5 — Run a Live GitHub Query
 
 ## Goal
 
-Verify MCP functionality by retrieving real-time data from your GitHub account using Claude Code.
+Verify MCP functionality by retrieving real-time data from your GitHub account using Claude Code:
+
+**What I did**
+
+I tested the GitHub MCP integration by asking Claude Code to list all my GitHub repositories. Claude retrieved my actual repositories directly from GitHub, including repository names, visibility, fork status, and recent activity. This confirmed that Claude was accessing live data through MCP instead of relying on its training data.
 
 ### Evidence
 
 #### Screenshot 5 — Claude response showing real GitHub repositories
 
-Add your screenshot here.
+[Real Github Repo pulled by Claude MCP](screenshots/My-Real-GitHub-repositories-Called-by-Claude-Using-MCP.png)
 
----
 
 # Submission Instructions
 
@@ -94,9 +112,9 @@ Add your screenshot here.
 
 Paste your forked repository URL here:
 
-`__________________________`
+[Forked Rep URL](https://github.com/kakpoklebervincent/Ultimate-Agentic-DevOps-with-Claude-Code)
 
----
+
 
 ## Security Confirmation
 
@@ -105,7 +123,7 @@ Confirm below:
 - [ ] `settings.local.json` is added to `.gitignore`
 - [ ] GitHub token is NOT exposed in repository or screenshots
 
----
+
 
 # Completion Checklist
 
