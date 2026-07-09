@@ -14,89 +14,94 @@ In this assignment, you will build and configure a set of specialized AI subagen
 
 ## Goal
 
-Create the `.claude/agents/` directory and add all required agent files.
+Create the `.claude/agents/` directory and add all required agent files:
+
+**What I did**
+
+I created the .claude/agents directory and added the three downloaded agent files to it. After placing the files in the correct location, I verified that all agent filenames matched the expected names so Claude Code could recognize and use each subagent correctly.
 
 ### Evidence
 
 #### Screenshot 1 — Agents folder structure in VS Code
 
-Add your screenshot here.
+[Agents folder structure](screenshots/SubAgents-folder-structure-in-VS%20Code.png)
 
----
+
 
 # Task 2 — Compare the Agent Configurations
 
 ## Goal
 
-Analyze the configuration differences between the three agents and demonstrate understanding of model and tool selection.
+Analyze the configuration differences between the three agents and demonstrate understanding of model and tool selection:
+
+**What I did**
+
+I reviewed the frontmatter configuration of each subagent to understand how their models and tool permissions were defined. By comparing the agents, I learned why different models and tool restrictions are used depending on the specific responsibility assigned to each subagent.
 
 ### Written Answers
 
 #### 1. Why does the cost optimizer use Haiku instead of Sonnet?
 
-Add your answer here...
-
----
+Cost optimization is a pattern-matching task — it reads Terraform files and compares resource configurations against known cost rules. This doesn't require deep reasoning or complex analysis. Haiku is faster and cheaper, making it the right model for repetitive, structured checks. Using Sonnet here would be slower and more expensive without any meaningful improvement in output quality.
 
 #### 2. Why does the security auditor NOT have Write in its tools list?
 
-Add your answer here...
-
----
+The security auditor is a read-only reviewer — its job is to identify and report issues, not fix them. Giving it Write access would be dangerous because a security agent that can also modify files could accidentally alter the very infrastructure it is auditing. Keeping it read-only enforces the principle of least privilege — the same principle it checks for in your Terraform code.
 
 #### 3. Why does the tf-writer use `inherit` instead of a specific model?
 
-Add your answer here...
-
----
+The tf-writer uses inherit because it should use whatever model the main Claude Code session is already running. Since writing production Terraform code is a complex, high-stakes task, it makes sense to inherit the most capable model available in the current session rather than locking it to a specific one. This keeps it flexible — if you upgrade your session model, the tf-writer automatically benefits.
 
 ### Evidence
 
 #### Screenshot 2 — security-auditor.md frontmatter
 
-Add your screenshot here.
-
----
+[security-auditor-frontmatter](screenshots/security-auditor.md-frontmatter.png)
 
 #### Screenshot 3 — cost-optimizer.md frontmatter
 
-Add your screenshot here.
+[cost-optimizer-frontmatter](screenshots/cost-optimizer.md-frontmatter.png)
 
----
+
 
 # Task 3 — Run the Security Auditor
 
 ## Goal
 
-Trigger the security auditor agent and analyze the generated security report for your Terraform infrastructure.
+Trigger the security auditor agent and analyze the generated security report for your Terraform infrastructure:
+
+**What I did**
+
+I triggered the security-auditor using a natural language prompt instead of selecting the agent manually. Claude automatically identified the correct specialist, delegated the task, and generated a detailed security report organized by severity levels. This demonstrated how subagents can independently handle specialized responsibilities within an agentic workflow.
 
 ### Evidence
 
 #### Screenshot 4 — Security auditor delegation triggered
 
-Add your screenshot here.
-
----
+[security auditor](screenshots/Delegation-message-showing-Claude-launched-the-security-auditor.png)
 
 #### Screenshot 5 — Security audit report output
 
-Add your screenshot here.
+[Full Security Audit Report](screenshots/Full-security-audit-report-with-findings-visible.png)
 
----
+
 
 # Task 4 — Run the Cost Optimizer
 
 ## Goal
 
-Trigger the cost optimizer agent and review the generated cost optimization report.
+Trigger the cost optimizer agent and review the generated cost optimization report:
+
+**What I did**
+
+I asked Claude to review my Terraform infrastructure for cost optimization. The request was automatically delegated to the cost-optimizer subagent, which quickly analyzed the deployment and provided recommendations to reduce infrastructure costs while maintaining performance. This highlighted how different specialized agents can focus on specific areas such as cost management.
 
 ### Evidence
 
 #### Screenshot 6 — Cost optimization report output
 
-Add your screenshot here.
+[Full cost Report](screenshots/The%20-full-cost-optimization-report.png)
 
----
 
 # Submission Instructions
 
@@ -119,9 +124,10 @@ Paste your Google Doc URL here:
 
 Paste your forked repository URL here:
 
-`__________________________`
+[Forked Repo URL](https://github.com/kakpoklebervincent/Ultimate-Agentic-DevOps-with-Claude-Code)
 
----
+
+
 
 # Completion Checklist
 
