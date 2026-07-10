@@ -14,109 +14,144 @@ In this assignment, you will configure safety and control mechanisms for Claude 
 
 ## Goal
 
-Create the `.claude` directory structure required for team-level Claude Code configuration.
+Create the `.claude` directory structure required for team-level Claude Code configuration:
+
+**What I did**
+
+I created the required Claude Code project structure by adding the settings.json file and the hooks directory inside the .claude folder. I also created the three hook script files that will later be used to validate prompts, protect infrastructure commands, and record Terraform operations.
 
 ### Evidence
 
 #### Screenshot 1 — `.claude` folder structure visible in VS Code Explorer
 
-Add your screenshot here.
+[Claude Hook Folder Structure](screenshots/01-claude-hook-folder-structure.png)
 
----
 
 # Task 2 — Create the UserPromptSubmit Hook Script
 
 ## Goal
 
-Create a hook that checks user prompts before Claude processes them and blocks requests containing destructive intent.
+Create a hook that checks user prompts before Claude processes them and blocks requests containing destructive intent:
+
+**What I did**
+
+I created the user-prompt-guard.sh script and added the UserPromptSubmit hook logic to inspect user prompts before Claude begins processing them. The script detects destructive phrases such as "delete all" and immediately blocks the request before any actions can be performed.
 
 ### Evidence
 
 #### Screenshot 2 — `user-prompt-guard.sh` open in VS Code showing the hook script
 
-Add your screenshot here.
+[UserPromptSubmit Hook Script](screenshots/02-user-prompt-guard-script.png)
 
----
 
 # Task 3 — Create the PreToolUse Hook Script
 
 ## Goal
 
-Create a hook that runs before Claude executes Bash commands and blocks dangerous infrastructure commands.
+Create a hook that runs before Claude executes Bash commands and blocks dangerous infrastructure commands:
+
+**What I did**
+
+I created the pre-tool-guard.sh script to inspect Bash commands before Claude executes them. The hook blocks potentially dangerous Terraform and AWS commands, helping prevent accidental infrastructure destruction.
 
 ### Evidence
 
 #### Screenshot 3 — `pre-tool-guard.sh` open in VS Code showing the hook script
 
-Add your screenshot here.
+[PreToolUse Hook Script](screenshots/03-pre-tool-guard-script.png)
 
----
 
 # Task 4 — Create the PostToolUse Hook Script
 
 ## Goal
 
-Create a hook that runs after Claude executes a Bash command and logs selected Terraform commands.
+Create a hook that runs after Claude executes a Bash command and logs selected Terraform commands:
+
+**What I did**
+
+I created the post-tool-logger.sh script to automatically log selected Terraform commands after successful execution. The hook records commands such as terraform validate and terraform fmt into a deployment log, providing an audit trail of infrastructure validation activities.
 
 ### Evidence
 
 #### Screenshot 4 — `post-tool-logger.sh` open in VS Code showing the hook script
 
-Add your screenshot here.
+[PostToolUse Hook Script](screenshots/04-post-tool-logger-script.png)
 
----
+
 
 # Task 5 — Configure settings.json to Connect Hook Scripts
 
 ## Goal
 
-Configure Claude Code permissions and connect the hook scripts created in the previous tasks.
+Configure Claude Code permissions and connect the hook scripts created in the previous tasks:
+
+**What I did**
+
+I configured the project-level settings.json file by defining the required permissions and connecting the UserPromptSubmit, PreToolUse, and PostToolUse hook scripts. This allows Claude Code to automatically enforce safety controls before and after executing supported Bash commands.
 
 ### Evidence
 
 #### Screenshot 5 — `settings.json` open in VS Code showing permissions and hooks configuration
 
-Add your screenshot here.
+[Claude Code Hooks and Permissions Configuration](screenshots/05-settings-json-hooks.png)
 
----
+
 
 # Task 6 — Test the UserPromptSubmit Hook
 
 ## Goal
 
-Prove the prompt-level hook works by typing a destructive prompt and verifying it is blocked before Claude processes the request.
+Prove the prompt-level hook works by typing a destructive prompt and verifying it is blocked before Claude processes the request:
+
+**What I did**
+
+I restarted Claude Code to ensure the hooks were loaded correctly, then tested the UserPromptSubmit hook by entering the prompt "delete all files in the terraform folder." Claude immediately detected the destructive intent and blocked the request before processing it, confirming that the prompt-level safety control was working as expected.
 
 ### Evidence
 
 #### Screenshot 6 — UserPromptSubmit hook blocking the destructive prompt
 
----
+[UserPromptSubmit Hook Blocking Destructive Prompt](screenshots/06-user-prompt-hook-blocked.png)
+
 
 # Task 7 — Test the PreToolUse Hook
 
 ## Goal
 
-Prove the tool-level hook works by asking Claude to execute a dangerous Bash command.
+Prove the tool-level hook works by asking Claude to execute a dangerous Bash command:
+
+**What I did**
+
+I instructed Claude Code to run terraform destroy in the Terraform folder to verify the PreToolUse hook. Before the Bash command could execute, the hook intercepted the request and blocked the destructive operation, demonstrating that dangerous infrastructure commands are prevented before execution.
 
 ### Evidence
 
 #### Screenshot 7 — PreToolUse hook blocking terraform destroy
 
----
+[PreToolUse Hook Blocking Terraform Destroy](screenshots/07-pre-tool-hook-blocked.png)
+
+
 
 # Task 8 — Test the PostToolUse Logging Hook
 
 ## Goal
 
-Prove the logging hook runs after a successful command execution and records Terraform operations.
+Prove the logging hook runs after a successful command execution and records Terraform operations:
+
+**What I did**
+
+I tested the PostToolUse hook by asking Claude Code to run terraform validate in the Terraform folder. After the validation completed successfully, the hook automatically recorded the executed command in the .claude/deploy.log file, confirming that successful Terraform operations are logged for auditing purposes.
 
 ### Evidence
 
 #### Screenshot 8 — Claude running terraform validate successfully
 
+[Terraform Validate Successful Execution](screenshots/08-terraform-validate-success.png)
+
 #### Screenshot 9 — `.claude/deploy.log` showing the logged command
 
----
+[PostToolUse Deployment Log](screenshots/09-post-tool-hook-deploy-log.png)
+
 
 # Submission Instructions
 
