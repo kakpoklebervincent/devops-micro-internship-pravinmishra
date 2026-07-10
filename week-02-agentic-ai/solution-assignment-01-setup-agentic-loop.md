@@ -6,7 +6,7 @@ Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
 
 ## Purpose
 
-In this assignment, you will set up your local development environment for Agentic AI using Claude Code. You will install and authenticate Claude Code CLI, configure the VS Code extension, fork and clone the starter repository, and observe how the Agentic Loop (Gather → Act → Verify) works in practice.
+In this assignment, you will set up your local development environment for Agentic AI using Claude Code. You will install and authenticate Claude Code CLI, fork and clone the starter repository, and observe how the Agentic Loop (Gather → Act → Verify) works in practice.
 
 ---
 
@@ -20,11 +20,11 @@ I successfully installed the Claude Code CLI globally using npm, verified that t
 
 ### Evidence
 
-#### Screenshot 1 — Claude Code version check
+#### Screenshot 1 — Terminal showing `claude --version` with the version number visible
 
 [Claude Code version check](screenshots/Terminal-claude-version-check-output.png)
 
-#### Screenshot 2 — Claude Code authenticated in terminal
+#### Screenshot 2 — Claude Code authenticated and showing the terminal prompt (your name visible)
 
 [Claude Code authenticated](screenshots/Claude%20Code%20authenticated%20and%20showing%20the%20terminal%20prompt.png)
 
@@ -41,7 +41,7 @@ I forked the starter repository to my GitHub account, cloned it to my local mach
 
 ### Evidence
 
-#### Screenshot 3 — Project opened in VS Code
+#### Screenshot 3 — VS Code with the project open, file tree visible showing `index.html`, `style.css`, `images/`
 
 [Project in VS code](screenshots/VS-Code-with-project-open.png)
 
@@ -58,12 +58,12 @@ I launched Claude Code from the VS Code terminal and completed the two required 
 
 ### Evidence
 
-#### Screenshot 4 — Claude reading project files and responding
+#### Screenshot 4 — Claude's response to the first question, showing it read the files (tool calls visible)
 
 [Claude reading projecT file](screenshots/Claude's-response-to-the-first-question.png)
 
 
-#### Screenshot 5 — Claude executing command to count CSS lines
+#### Screenshot 5 — Claude's response to the second question, showing it ran a command and reported the line count
 
 [Claude executing command](screenshots/Claude's-response-to-second-question.png)
 
@@ -72,6 +72,7 @@ I launched Claude Code from the VS Code terminal and completed the two required 
 # Submission Instructions
 
 - Add all required screenshots in your GitHub repository submission
+- Full name must be visible in required screenshots
 - Push your completed work to your forked repository
 - Submit your GitHub repository URL below
 
@@ -89,7 +90,6 @@ Paste your forked repository URL here:
 
 - [ ] Claude Code CLI installed successfully
 - [ ] Claude Code authenticated successfully
-- [ ] VS Code extension installed and working
 - [ ] Repository forked successfully
 - [ ] Repository cloned and opened in VS Code
 - [ ] All required screenshots added

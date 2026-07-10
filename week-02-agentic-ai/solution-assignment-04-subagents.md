@@ -22,7 +22,7 @@ I created the .claude/agents directory and added the three downloaded agent file
 
 ### Evidence
 
-#### Screenshot 1 — Agents folder structure in VS Code
+#### Screenshot 1 — VS Code sidebar showing `.claude/agents/` with all 3 files
 
 [Agents folder structure](screenshots/SubAgents-folder-structure-in-VS%20Code.png)
 
@@ -54,11 +54,11 @@ The tf-writer uses inherit because it should use whatever model the main Claude 
 
 ### Evidence
 
-#### Screenshot 2 — security-auditor.md frontmatter
+#### Screenshot 2 — `security-auditor.md` frontmatter showing model and tools configuration
 
 [security-auditor-frontmatter](screenshots/security-auditor.md-frontmatter.png)
 
-#### Screenshot 3 — cost-optimizer.md frontmatter
+#### Screenshot 3 — `cost-optimizer.md` frontmatter showing the model and tools configuration
 
 [cost-optimizer-frontmatter](screenshots/cost-optimizer.md-frontmatter.png)
 
@@ -76,7 +76,7 @@ I triggered the security-auditor using a natural language prompt instead of sele
 
 ### Evidence
 
-#### Screenshot 4 — Security auditor delegation triggered
+#### Screenshot 4 — The delegation message showing Claude launched the security-auditor
 
 [security auditor](screenshots/Delegation-message-showing-Claude-launched-the-security-auditor.png)
 
@@ -98,7 +98,7 @@ I asked Claude to review my Terraform infrastructure for cost optimization. The 
 
 ### Evidence
 
-#### Screenshot 6 — Cost optimization report output
+#### Screenshot 6 — The full cost optimization report
 
 [Full cost Report](screenshots/The%20-full-cost-optimization-report.png)
 
@@ -106,17 +106,8 @@ I asked Claude to review my Terraform infrastructure for cost optimization. The 
 # Submission Instructions
 
 - Ensure all agent files are committed in `.claude/agents/`
-- Complete all written answers in your Google Doc submission
+- Complete all written answers in your GitHub Repo
 - Push final changes to your forked GitHub repository
-- Submit only the Google Doc link as required
-
----
-
-## Google Doc Link
-
-Paste your Google Doc URL here:
-
-`__________________________`
 
 ---
 
@@ -134,7 +125,7 @@ Paste your forked repository URL here:
 - [ ] `.claude/agents/` folder contains all 3 agent files
 - [ ] Screenshot 2 shows correct `security-auditor.md` configuration
 - [ ] Screenshot 3 shows correct `cost-optimizer.md` configuration
-- [ ] All 3 written answers completed in Google Doc
+- [ ] All 3 written answers completed 
 - [ ] Security auditor executed successfully
 - [ ] Cost optimizer executed successfully
 - [ ] Security report is visible with findings

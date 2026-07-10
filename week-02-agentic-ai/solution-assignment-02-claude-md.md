@@ -1,4 +1,4 @@
-# Assignment 2 — Teaching Claude Your Project
+clear# Assignment 2 — Teaching Claude Your Project
 
 Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
 
@@ -22,6 +22,9 @@ The downloaded repository already contained a CLAUDE.md file (This was visible i
 
 #### Screenshot 1 — Claude response before CLAUDE.md
 [Claude response before CLAUDE](screenshots/Claude-Response-Without-Cloud-Md.png)
+#### Screenshot 1 — Claude’s generic response before CLAUDE.md exists (project contains only `index.html`, `style.css`, `images/`, `README.MD`, `privacy.html`, `terms.html`)
+
+Add your screenshot here.
 
 
 # Task 2 — Generate the First Draft with /init
@@ -34,7 +37,7 @@ I used the /init command to generate a starter CLAUDE.md file and reviewed the a
 
 ### Evidence
 
-#### Screenshot 2 — Auto-generated CLAUDE.md
+#### Screenshot 2 — The auto-generated CLAUDE.md open in VS Code showing its content
 
 [Generated Claude.md](screenshots/Claude.md-Generated-in-VSCode.png)
 
@@ -49,7 +52,7 @@ I customized the generated CLAUDE.md by updating the project overview, architect
 
 ### Evidence
 
-#### Screenshot 3 — Customized CLAUDE.md (all 5 sections visible)
+#### Screenshot 3 — Your customized CLAUDE.md in VS Code showing all 5 sections (scroll to show the full file)
 
 [Customized Claude.md](screenshots/customized%20CLAUDE.md%20in%20VS.PNG)
 
@@ -64,7 +67,7 @@ I started a new Claude Code session to verify that the updated CLAUDE.md was bei
 
 ### Evidence
 
-#### Screenshot 4 — Claude response with project-specific deployment details
+#### Screenshot 4 — Claude's specific, detailed answer after reading CLAUDE.md (Claude mentioning S3, CloudFront and Terraform)
 
 [Claude Respond to project spec](screenshots/CLAUDE.md-Answering-Question.png)
 
@@ -94,12 +97,13 @@ Paste your forked repository URL here:
 
 # Completion Checklist
 
-- [ ] Screenshot 1 shows Claude’s generic response (before CLAUDE.md)
-- [ ] Screenshot 2 shows `/init` generated CLAUDE.md
-- [ ] Screenshot 3 shows fully customized CLAUDE.md with all 5 sections
-- [ ] Screenshot 4 shows updated deployment-aware Claude response
-- [ ] Screenshot 5 shows Claude rejecting React request based on rules
-- [ ] CLAUDE.md is committed and visible in GitHub repository
+[ ] Screenshot 1 shows a generic Claude response (no CLAUDE.md)<br>
+[ ] Screenshot 2 shows the auto-generated `/init` output <br>
+[ ] Screenshot 3 shows all 5 sections in your customized CLAUDE.md <br>
+[ ] Screenshot 4 shows Claude mentioning S3, CloudFront, and Terraform <br>
+[ ] Screenshot 5 shows Claude refusing the React request <br>
+[ ] Screenshot 6 shows `CLAUDE.md` committed and visible in your GitHub repository <br>
+[ ] GitHub repository URL is included in the submission <br>
 
 ---
 

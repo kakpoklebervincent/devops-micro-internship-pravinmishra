@@ -22,7 +22,7 @@ I created a GitHub Personal Access Token (PAT) to securely authenticate the GitH
 
 ### Evidence
 
-#### Screenshot 1 — GitHub token creation (scopes only)
+#### Screenshot 1 — GitHub token creation page showing the selected scopes (`repo`, `read:user`) — token value must NOT be visible
 
 [Github PAT Creation Page](screenshots/GitHub-token-creation-page.PNG)
 
@@ -40,7 +40,7 @@ I created the .mcp.json file in the project root and configured the GitHub MCP s
 
 ### Evidence
 
-#### Screenshot 2 — .mcp.json configuration in VS Code
+#### Screenshot 2 — `.mcp.json` open in VS Code showing the full configuration
 
 [.mcp.json configuration](screenshots/mcp.json-open-in-VSCode.PNG)
 
@@ -57,7 +57,7 @@ I created the .claude/settings.local.json file to securely store my GitHub Perso
 
 ### Evidence
 
-#### Screenshot 3 — settings.local.json (token hidden/blurred)
+#### Screenshot 3 — `settings.local.json` open in VS Code showing the `env` section — **blur or cover the actual GitHub token value**
 
 [settings.local.json](screenshots/settings.local.json-open-in-VSCode.PNG)
 
@@ -75,7 +75,7 @@ After restarting Claude Code to load the new MCP configuration, I verified the c
 
 ### Evidence
 
-#### Screenshot 4 — /mcp output showing GitHub connected
+#### Screenshot 4 — `/mcp` output showing `github: connected`
 
 [mcp output GitHub connected](screenshots/MCP-output-showing-github-connected.png)
 
@@ -93,7 +93,7 @@ I tested the GitHub MCP integration by asking Claude Code to list all my GitHub 
 
 ### Evidence
 
-#### Screenshot 5 — Claude response showing real GitHub repositories
+#### Screenshot 5 — Claude's response showing the GitHub MCP tool call and the retrieved README.md content.
 
 [Real Github Repo pulled by Claude MCP](screenshots/My-Real-GitHub-repositories-Called-by-Claude-Using-MCP.png)
 
