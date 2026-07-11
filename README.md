@@ -135,7 +135,7 @@ This is not a course. It is an internship-style program — real deployments, re
 |------|-------|--------|------------|---------------|-----------|
 | 00 | Internet & Networking Basics | ⬜ Not Started | ⏳ Pending | — | — |
 | 01 | Success Mindset | ✅ Completed | ✅ Solved | [Reflection Post](https://www.linkedin.com/posts/vincent-kleber-kakpo-8b920b88_devops-cloudcomputing-agenticai-share-7477020812269572096-b-Eh/) / [2.0 Version Post](https://lnkd.in/p/dUwXSiNg) | – |
-| 02 | Agentic AI with Claude Code | 🔄 In Progress | ⏳ Pending | — | — |
+| 02 | Agentic AI with Claude Code | ✅ Completed  | ✅ Solved | [Relection_Linkedin_Post](https://lnkd.in/p/eawQUQi6) / [Memory.md_linkedin_Post](https://lnkd.in/p/eSSVdeHC) |[Reflection_Blog](https://kakpoklebervincent.hashnode.dev/reflection-week-2-from-following-ai-to-collaborating-with-it)|
 | 03 | Linux for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
 | 04 | Bash Scripting | ⬜ Not Started | ⏳ Pending | — | — |
 | 05 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
