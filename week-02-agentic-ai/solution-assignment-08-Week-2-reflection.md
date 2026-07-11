@@ -46,17 +46,15 @@ You can publish your blog on:
 
 #### Screenshot 1 — Blog published and visible
 
-Add your screenshot here.
-
----
+[Published Blog Screen](screenshots/Blog_Post_Screen_Shot.PNG)
 
 ### Submission Field
 
-Blog Link:
+[Claude Code Agentic AI Reflection Blog](https://kakpoklebervincent.hashnode.dev/reflection-week-2-from-following-ai-to-collaborating-with-it)
 
-`__________________________________________`
 
----
+
+
 
 # Task 2 — Create LinkedIn Post
 

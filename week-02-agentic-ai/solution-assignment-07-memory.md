@@ -16,13 +16,16 @@ In this assignment, you will explore Claude Code’s memory system. You will loc
 
 Discover exactly where Claude Code stores memory for this project.
 
+**What I did**
+
+I asked Claude where project memory is stored. Claude explained that project memories are saved outside the project repository inside the local .claude/projects directory. It also showed that each project has its own memory folder containing a MEMORY.md index file and individual memory files used to persist knowledge across sessions.
 ### Evidence
 
 #### Screenshot 1 — Memory file path shown by Claude
 
-Add your screenshot here.
+[Memory File Location](screenshots/01-memory-file-location.png)
 
----
+
 
 # Task 2 — Give Claude Information to Remember
 
@@ -30,19 +33,22 @@ Add your screenshot here.
 
 Teach Claude three specific facts about the project and instruct it to save them to the memory file.
 
+**What I did**
+
+I instructed Claude to permanently remember three project rules for this repository. The first rule defined the required hero section background color. The second rule instructed Claude not to use JavaScript unless I explicitly approve it. The third rule required Terraform formatting to be performed before running a Terraform plan. Claude confirmed that these rules had been successfully saved into the project's memory.
+
+
 ### Evidence
 
 #### Screenshot 2 — Claude confirming the memory was saved
 
-Add your screenshot here.
-
----
+[Memory Saved Confirmation](screenshots/02-memory-saved-confirmation.png)
 
 #### Screenshot 3 — The `MEMORY.md` file open in VS Code showing the saved content
 
-Add your screenshot here.
+[Project MEMORY.md](screenshots/03-memory-md-content.png)
 
----
+
 
 # Task 3 — Close the Session Completely
 
@@ -50,13 +56,17 @@ Add your screenshot here.
 
 Terminate the current Claude Code session and restart it to ensure memory is the only persistent context source.
 
+**What I did**
+
+I completely closed the active Claude Code session and restarted VS Code before opening a new Claude Code session. This ensured there was no previous conversation history available, allowing me to verify that Claude's responses were coming entirely from the stored project memory.
+
 ### Evidence
 
 #### Screenshot 4 — VS Code reopened with a fresh Claude Code session showing no previous conversation
 
-Add your screenshot here.
+[Fresh Claude Session](screenshots/04-fresh-claude-session.png)
 
----
+
 
 # Task 4 — Prove Memory Recall Across Sessions
 
@@ -64,19 +74,21 @@ Add your screenshot here.
 
 Run three tests that prove Claude remembers what you told it — without you saying it again in the new session.
 
+**What I did**
+
+After restarting Claude Code, I asked questions about the project without reminding Claude of any previously stored information. Claude correctly recalled the required hero section background color from memory. I also requested that JavaScript be added to the landing page, and Claude followed the stored project rule by refusing to proceed without my explicit approval. This confirmed that the project memory persisted successfully across sessions.
+
+
 ### Evidence
 
 #### Screenshot 5 — Claude recalling hero section colors
 
-Add your screenshot here.
-
----
+[Memory Recall - Hero Color](screenshots/05-memory-recall-hero-color.png)
 
 #### Screenshot 6 — Claude refusing JavaScript request based on memory rule
 
-Add your screenshot here.
+[Memory Rule - JavaScript Restriction](screenshots/06-memory-rule-javascript.png)
 
----
 
 # Submission Instructions
 
@@ -91,15 +103,15 @@ Add your screenshot here.
 
 Paste your Linkedin post link here:
 
-`__________________________`
+[Memory.md Linkedin Post](https://lnkd.in/p/eSSVdeHC)
 
----
+
 
 ## GitHub Repository URL
 
 Paste your forked repository URL here:
 
-`__________________________`
+[Forked Repo URL]()
 
 ---
 
