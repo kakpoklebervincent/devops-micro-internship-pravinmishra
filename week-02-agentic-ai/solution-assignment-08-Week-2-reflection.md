@@ -90,25 +90,62 @@ P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by 
 
 #### Screenshot 2 — LinkedIn post published
 
-Add your screenshot here.
-
----
+[Relection Linkedin Post](screenshots/Assignment-8-Linkedin_Post.PNG)
 
 ### Submission Field
 
 LinkedIn Post Content (copy-paste here):
 
-```
-Paste your LinkedIn post content here
-```
+**I used to think working with AI meant writing better prompts.**
+
+This week completely changed that perspective.
+
+I discovered that the real value isn't asking AI better questions.
+
+It's teaching AI how to work within your engineering process.
+
+Every concept I explored built naturally on the previous one, gradually transforming Claude Code from an assistant that simply answered questions into an engineering partner that could understand project rules, respect safety boundaries, remember important decisions, and know when to ask for approval.
+
+👋 CLAUDE.md taught Claude my project standards before it touched a single file.
+
+👋 Skills transformed repetitive prompts into reusable workflows.
+
+👋 Subagents delegated specialized tasks to the most appropriate AI.
+
+👋 MCP connected Claude Code directly to GitHub and live systems.
+
+👋 Hooks and Permissions prevented destructive actions before they could happen.
+
+👋 Memory enabled Claude to remember project rules across completely fresh sessions.
+
+One moment really stayed with me.
+
+I closed Claude Code, restarted VS Code, opened a brand-new session with no conversation history, and asked a question about my project.
+
+Claude remembered.
+
+Then I asked it to perform an action that violated one of the project rules I had stored. Instead of blindly complying, it politely refused, referenced the rule, and asked for my approval before proceeding.
+
+That was the moment I stopped seeing AI as just another chatbot.
+
+I began seeing it as an engineering partner that remembers context, respects boundaries, and supports better engineering decisions.
+
+What impressed me most wasn't any single feature. It was seeing how each capability worked together to create a structured engineering workflow.
+
+As part of my learning journey in the DevOps Micro Internship (DMI) Cohort 3, I documented my complete Week 2 reflection, including the lessons that challenged my thinking, the mistakes that helped me grow, and the mindset shifts that changed how I now approach Agentic AI.
+
+📖 I shared my complete Week 2 reflection on Hashnode. I'll drop the link in the first comment.
+
+My sincere appreciation goes to Pravin Mishra for designing a learning experience that encourages us to think like engineers rather than simply learning tools. My heartfelt thanks also go to Anjana Muthunayake (Lead Co-Mentor), Faith Samson, Joy Ukpabi, and Rukevwe Ubioworo for their mentorship and continuous support.
+
+What has been the biggest mindset shift in your AI or DevOps journey? I'd genuinely love to hear your experience.
+
 
 ---
 
 ### LinkedIn Post Link:
 
-`__________________________________________`
-
----
+[Assignment 8 Linkedinpost](https://lnkd.in/p/eawQUQi6)
 
 # Submission Instructions
 
