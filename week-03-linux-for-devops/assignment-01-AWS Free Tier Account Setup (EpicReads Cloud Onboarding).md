@@ -20,21 +20,19 @@ Demonstrate understanding of AWS basics and Free Tier usage by answering the fol
 
 #### Question 1 — What is an AWS account, and why do you need it at this stage?
 
-Write your answer here.
-
----
+An AWS account is a secure account that gives you access to Amazon Web Services, where you can create and manage cloud resources such as virtual servers, storage, databases, and networking services. At this stage, it is needed because the DevOps Micro Internship focuses on hands-on learning, allowing me to build, deploy, and manage real cloud infrastructure instead of only learning the theory.
 
 #### Question 2 — What is AWS Free Tier, and how long does it last?
 
-Write your answer here.
-
----
+The AWS Free Tier allows new users to explore AWS services at little or no cost by providing free usage limits for selected services. For eligible new accounts, AWS currently offers a Free Plan with up to $200 in AWS credits for up to 6 months, while several Always Free services remain available indefinitely within their monthly usage limits.
 
 #### Question 3 — Name three AWS Free Tier services and their free usage limits.
 
-Write your answer here.
-
----
+| AWS Service | Free Tier Usage |
+|-------------|-----------------|
+| **Amazon EC2** | Up to **750 hours per month** of eligible micro instances, allowing one small virtual server to run continuously for a month. |
+| **Amazon S3** | **5 GB** of Standard Storage, **20,000 GET requests**, and **2,000 PUT requests** per month. |
+| **Amazon DynamoDB** | **25 GB** of storage with **25 Read Capacity Units (RCUs)** and **25 Write Capacity Units (WCUs)** under the Always Free tier. |
 
 # Task 2 — Create AWS Free Tier Account
 
@@ -50,15 +48,15 @@ Create a valid AWS Free Tier account and sign in to the AWS Management Console.
 
 ## Goal
 
-Confirm that your AWS account setup is complete by navigating to the Account section and capturing proof.
+Confirm that your AWS account setup is complete by navigating to the Account section and capturing proof:
+
+**Verification:** I successfully created my AWS Free Tier account and verified access to the AWS Management Console. This marks the beginning of my hands-on cloud journey, providing the foundation for the upcoming DevOps labs and real-world projects.
 
 ### Evidence
 
 #### Screenshot 1 — AWS Account page showing account name (email may be blurred)
 
-Add your screenshot here.
-
----
+[My AWS Account Page](screenshots/AWS-Account-Page.png)
 
 # Submission Instructions
 
