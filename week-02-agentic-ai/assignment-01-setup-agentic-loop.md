@@ -22,11 +22,11 @@ I successfully installed the Claude Code CLI globally using npm, verified that t
 
 #### Screenshot 1 — Terminal showing `claude --version` with the version number visible
 
-[Claude Code version check](screenshots/Terminal-claude-version-check-output.png)
+![Claude Code version check](screenshots/Terminal-claude-version-check-output.png)
 
 #### Screenshot 2 — Claude Code authenticated and showing the terminal prompt (your name visible)
 
-[Claude Code authenticated](screenshots/Claude%20Code%20authenticated%20and%20showing%20the%20terminal%20prompt.png)
+![Claude Code authenticated](screenshots/Claude%20Code%20authenticated%20and%20showing%20the%20terminal%20prompt.png)
 
 ---
 
@@ -43,7 +43,7 @@ I forked the starter repository to my GitHub account, cloned it to my local mach
 
 #### Screenshot 3 — VS Code with the project open, file tree visible showing `index.html`, `style.css`, `images/`
 
-[Project in VS code](screenshots/VS-Code-with-project-open.png)
+![Project in VS code](screenshots/VS-Code-with-project-open.png)
 
 
 
@@ -60,12 +60,12 @@ I launched Claude Code from the VS Code terminal and completed the two required 
 
 #### Screenshot 4 — Claude's response to the first question, showing it read the files (tool calls visible)
 
-[Claude reading projecT file](screenshots/Claude's-response-to-the-first-question.png)
+![Claude reading projecT file](screenshots/Claude's-response-to-the-first-question.png)
 
 
 #### Screenshot 5 — Claude's response to the second question, showing it ran a command and reported the line count
 
-[Claude executing command](screenshots/Claude's-response-to-second-question.png)
+![Claude executing command](screenshots/Claude's-response-to-second-question.png)
 
 
 

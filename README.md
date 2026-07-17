@@ -131,9 +131,9 @@ This is not a course. It is an internship-style program — real deployments, re
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
 | 00 | Internet & Networking Basics | ⬜ Not Started | ⏳ Pending | — | — |
-| 01 | Success Mindset | ✅ Completed | ✅ Solved | [Reflection Post](https://www.linkedin.com/posts/vincent-kleber-kakpo-8b920b88_devops-cloudcomputing-agenticai-share-7477020812269572096-b-Eh/) / [2.0 Version Post](https://lnkd.in/p/dUwXSiNg) | – |
+| 01 | Success Mindset | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/vincent-kleber-kakpo-8b920b88_devops-cloudcomputing-agenticai-share-7477020812269572096-b-Eh/ /https://www.linkedin.com/posts/vincent-kleber-kakpo-8b920b88_devops-cloudcomputing-agenticai-share-7477685853574578176-1Mdi/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABKKZ00BSvPefUkOzJsZr6-0-A2NhIYUniE | – |
 | 02 | Agentic AI with Claude Code | ✅ Completed  | ✅ Solved | https://www.linkedin.com/posts/vincent-kleber-kakpo-8b920b88_devops-cloudcomputing-agenticai-share-7477685853574578176-1Mdi / https://www.linkedin.com/posts/vincent-kleber-kakpo-8b920b88_devops-cloudcomputing-agenticai-share-7477020812269572096-b-Eh |[Reflection_Blog](https://kakpoklebervincent.hashnode.dev/reflection-week-2-from-following-ai-to-collaborating-with-it)|
-| 03 | Linux for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
+| 03 | Linux for DevOps | 🔄 In Progress | ⏳ Pending | https://www.linkedin.com/posts/vincent-kleber-kakpo-8b920b88_devops-aws-linux-share-7483098721400889344--bpP | — |
 | 04 | Bash Scripting | ⬜ Not Started | ⏳ Pending | — | — |
 | 05 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
 | 06 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |

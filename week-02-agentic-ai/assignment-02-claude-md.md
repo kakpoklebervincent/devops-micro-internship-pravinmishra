@@ -20,11 +20,9 @@ The downloaded repository already contained a CLAUDE.md file (This was visible i
 
 ### Evidence
 
-#### Screenshot 1 — Claude response before CLAUDE.md
-[Claude response before CLAUDE](screenshots/Claude-Response-Without-Cloud-Md.png)
 #### Screenshot 1 — Claude’s generic response before CLAUDE.md exists (project contains only `index.html`, `style.css`, `images/`, `README.MD`, `privacy.html`, `terms.html`)
 
-Add your screenshot here.
+![Claude response before CLAUDE](screenshots/Claude-Response-Without-Cloud-Md.png)
 
 
 # Task 2 — Generate the First Draft with /init
@@ -39,7 +37,7 @@ I used the /init command to generate a starter CLAUDE.md file and reviewed the a
 
 #### Screenshot 2 — The auto-generated CLAUDE.md open in VS Code showing its content
 
-[Generated Claude.md](screenshots/Claude.md-Generated-in-VSCode.png)
+![Generated Claude.md](screenshots/Claude.md-Generated-in-VSCode.png)
 
 
 # Task 3 — Customize the CLAUDE.md
@@ -54,7 +52,7 @@ I customized the generated CLAUDE.md by updating the project overview, architect
 
 #### Screenshot 3 — Your customized CLAUDE.md in VS Code showing all 5 sections (scroll to show the full file)
 
-[Customized Claude.md](screenshots/customized%20CLAUDE.md%20in%20VS.PNG)
+![Customized Claude.md](screenshots/customized%20CLAUDE.md%20in%20VS.PNG)
 
 
 # Task 4 — Test the After State
@@ -69,12 +67,12 @@ I started a new Claude Code session to verify that the updated CLAUDE.md was bei
 
 #### Screenshot 4 — Claude's specific, detailed answer after reading CLAUDE.md (Claude mentioning S3, CloudFront and Terraform)
 
-[Claude Respond to project spec](screenshots/CLAUDE.md-Answering-Question.png)
+![Claude Respond to project spec](screenshots/CLAUDE.md-Answering-Question.png)
 
 
 #### Screenshot 5 — Claude response rejecting React/component change based on rules
 
-[Claude Rejecting prompt](screenshots/Claude-refusing-against-adding-React.png)
+![Claude Rejecting prompt](screenshots/Claude-refusing-against-adding-React.png)
 
 
 
@@ -90,7 +88,7 @@ I started a new Claude Code session to verify that the updated CLAUDE.md was bei
 
 Paste your forked repository URL here:
 
-[Forked Repo URL](https://github.com/kakpoklebervincent/Ultimate-Agentic-DevOps-with-Claude-Code)
+https://github.com/kakpoklebervincent/Ultimate-Agentic-DevOps-with-Claude-Code
 
 
 
