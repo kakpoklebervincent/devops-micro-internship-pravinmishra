@@ -16,6 +16,13 @@ In this assignment, you will deploy a React application on an Ubuntu EC2 instanc
 
 Install Node.js and npm on the Ubuntu VM and verify the installation:
 
+To prepare the Ubuntu server for building the React application, I first verified that both Node.js and npm were installed by executing the following command:
+
+```bash
+node -v && npm -v
+```
+
+This command displays the installed versions of Node.js and npm, confirming that the required development tools are available on the server. The output showed that both packages were installed successfully and ready for use. As shown in **Screenshot 1**, the displayed versions verify that the environment was properly configured before proceeding with the React application deployment.
 
 ### Evidence
 
