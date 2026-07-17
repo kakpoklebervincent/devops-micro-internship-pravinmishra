@@ -16,15 +16,12 @@ In this assignment, you will deploy a React application on an Ubuntu EC2 instanc
 
 Install Node.js and npm on the Ubuntu VM and verify the installation:
 
-### Implementation Summary
-
-The Ubuntu package repositories were updated to ensure that the latest package information was available before installing new software. Node.js and npm were then installed to provide the JavaScript runtime and package manager required to build and manage the React application. The installation was verified by checking the installed versions, confirming that the development environment was successfully prepared for the deployment process.
 
 ### Evidence
 
 #### Screenshot 1 — Output of `node -v && npm -v` showing installed versions
 
-[Output node && npm](screenshots/01-node-npm-version.png)
+![Output node && npm](screenshots/01-node-npm-version.png)
 
 ---
 
@@ -34,16 +31,11 @@ The Ubuntu package repositories were updated to ensure that the latest package i
 
 Install Nginx, start the service, and confirm it is running:
 
-### Implementation Summary
-
-Nginx was installed to serve the React application's static files over HTTP. The installation was verified by checking the installed version before starting the service. The web server was then configured to start automatically during system boot, and its operational status was confirmed to ensure it was ready to host the application.
-
-
 ### Evidence
 
 #### Screenshot 2 — Output of `systemctl status nginx --no-pager` showing Active (running)
 
-[systemctl status nginx output](screenshots/02-nginx-status.png)
+![systemctl status nginx output](screenshots/02-nginx-status.png)
 
 ---
 
@@ -53,16 +45,12 @@ Nginx was installed to serve the React application's static files over HTTP. The
 
 Clone the project repository and verify the project files are present:
 
-### Implementation Summary
-
-The React application repository was cloned from GitHub to the Ubuntu EC2 instance, making the project source code available for deployment. After navigating to the project directory, the repository contents were listed to confirm that all required files and folders had been downloaded successfully. This verification ensured that the application was ready for customization and the production build process.
-
 
 ### Evidence
 
 #### Screenshot 3 — Output of `ls` inside the `my-react-app` directory showing project files
 
-[my-react-app files](screenshots/03-react-project-files.png)
+![my-react-app files](screenshots/03-react-project-files.png)
 
 ---
 
@@ -72,15 +60,12 @@ The React application repository was cloned from GitHub to the Ubuntu EC2 instan
 
 Update `App.js` with your full name and the current date:
 
-### Implementation Summary
-
-The React application's main component was personalized by replacing the default placeholder values with the deployer's details. The full name and deployment date were updated to uniquely identify the current implementation while meeting the assignment requirements. These changes will be reflected in the deployed application, providing clear confirmation that the application was successfully customized before deployment.
 
 ### Evidence
 
 #### Screenshot 4 — `nano App.js` open showing your full name and date filled in
 
-[Editted App.js showing my name](screenshots/04-appjs-personalization.png)
+![Editted App.js showing my name](screenshots/04-appjs-personalization.png)
 
 ---
 
@@ -90,15 +75,12 @@ The React application's main component was personalized by replacing the default
 
 Install dependencies and generate the production build:
 
-### Implementation Summary
-
-Project dependencies were installed using npm to ensure that all required libraries and packages were available for the application. An optimized production build was then generated, transforming the React source code into static files suitable for deployment. The presence of the `build` directory confirmed that the production build was generated successfully and that the application was ready to be deployed to the Nginx web server.
 
 ### Evidence
 
 #### Screenshot 5 — Output of `ls` inside `my-react-app` showing the `build/` folder generated
 
-[Output Build in my-react-app](screenshots/05-react-build-folder.png)
+![Output Build in my-react-app](screenshots/05-react-build-folder.png)
 
 ---
 
@@ -108,15 +90,12 @@ Project dependencies were installed using npm to ensure that all required librar
 
 Copy the production build files to the Nginx web root directory.
 
-### Implementation Summary
-
-The optimized React build was deployed by copying the generated application files into Nginx's default web root directory (`/var/www/html`). File ownership and permissions were then configured to ensure that the Nginx service could securely access and serve the application. The deployment was verified by listing the contents of the web root, confirming that all production files had been copied successfully.
 
 ### Evidence
 
 #### Screenshot 6 — Output of `ls /var/www/html/` showing the deployed build contents
 
-[Output of `ls /var/www/html/](screenshots/06-nginx-webroot.png)
+![Output of `ls /var/www/html/](screenshots/06-nginx-webroot.png)
 
 ---
 
@@ -126,22 +105,17 @@ The optimized React build was deployed by copying the generated application file
 
 Apply Nginx configuration for React routing and confirm the service is active:
 
-### Implementation Summary
-
-The default Nginx configuration was updated to correctly serve the React Single Page Application (SPA) by redirecting unmatched routes to `index.html`. The configuration was validated to ensure there were no syntax errors before restarting the web server. Finally, the Nginx service status and configuration file were verified, confirming that the server was correctly configured to host the deployed application.
-
-
 ### Evidence
 
 #### Screenshot 7 — Output of `systemctl is-active nginx` showing `active`
 
-[systemctl is-active nginx](screenshots/07-nginx-active.png)
+![systemctl is-active nginx](screenshots/07-nginx-active.png)
 
 ---
 
 #### Screenshot 8 — Output of `cat /etc/nginx/sites-available/default` showing the Nginx config
 
-[Screenshot 8](screenshots/08-nginx-configuration.png)
+![Screenshot 8](screenshots/08-nginx-configuration.png)
 
 ---
 
@@ -151,33 +125,31 @@ The default Nginx configuration was updated to correctly serve the React Single 
 
 Verify the React application is publicly accessible via the server's public IP.
 
-### Implementation Summary
-
-The server's public IP address was retrieved to confirm the network endpoint for the deployed application. The React application was then accessed through a web browser using the public IP, verifying that Nginx was successfully serving the production build. The displayed application, together with the personalized deployment details, confirmed that the deployment was completed successfully and was accessible over the internet.
-
 
 ### Evidence
 
 #### Screenshot 9 — Output of `curl ifconfig.me` showing the server's public IP address
 
-[Output of `curl ifconfig.me](screenshots/09-public-ip.png)
+![Output of `curl ifconfig.me](screenshots/09-public-ip.png)
 
 ---
 
 #### Screenshot 10 — Browser showing the deployed React app at `http://<public-ip>` with your name and date visible
 
-[Browser showing the deployed React app](screenshots/10-react-app-browser.png)
+![Browser showing the deployed React app](screenshots/10-react-app-browser.png)
 ---
 
 # LinkedIn Post (Required)
 
 ## Evidence
 
+![Reactapp Linkedin Post](screenshots/Task02-Linkedin-Post-Capture.png)
+
 #### LinkedIn Post URL
 
 Paste your LinkedIn post URL here:
 
-`__________________________`
+https://www.linkedin.com/feed/update/urn:li:activity:7483203781153755136/
 
 ---
 

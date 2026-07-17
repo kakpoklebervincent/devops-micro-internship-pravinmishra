@@ -50,13 +50,11 @@ Create a valid AWS Free Tier account and sign in to the AWS Management Console.
 
 Confirm that your AWS account setup is complete by navigating to the Account section and capturing proof:
 
-**Verification:** I successfully created my AWS Free Tier account and verified access to the AWS Management Console. This marks the beginning of my hands-on cloud journey, providing the foundation for the upcoming DevOps labs and real-world projects.
-
 ### Evidence
 
 #### Screenshot 1 — AWS Account page showing account name (email may be blurred)
 
-[My AWS Account Page](screenshots/AWS-Account-Page.png)
+![My AWS Account Page](screenshots/AWS-Account-Page.png)
 
 # Submission Instructions
 
