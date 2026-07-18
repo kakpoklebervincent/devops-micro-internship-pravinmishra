@@ -38,6 +38,14 @@ This command displays the installed versions of Node.js and npm, confirming that
 
 Install Nginx, start the service, and confirm it is running:
 
+To prepare the Ubuntu server for hosting the React application, I installed Nginx and verified that the web server service started successfully by executing the following command:
+
+```bash
+systemctl status nginx --no-pager
+```
+
+This command displays the current status of the Nginx service, including whether it is active, running, or has encountered any errors. The output confirmed that the service was in the **active (running)** state, indicating that Nginx had been installed successfully and was ready to serve web content. As shown in **Screenshot 2**, the service status verifies that the web server was operating correctly before deploying the React application.
+
 ### Evidence
 
 #### Screenshot 2 — Output of `systemctl status nginx --no-pager` showing Active (running)
@@ -51,6 +59,14 @@ Install Nginx, start the service, and confirm it is running:
 ## Goal
 
 Clone the project repository and verify the project files are present:
+
+To obtain the React application source code, I cloned the project repository and verified that all project files were downloaded successfully by executing the following command:
+
+```bash
+ls
+```
+
+This command lists the files and directories in the current location, allowing me to confirm that the React project was cloned correctly. The output displayed the expected project files and folders, indicating that the repository was ready for customization and deployment. As shown in **Screenshot 3**, the project structure was successfully created on the Ubuntu server.
 
 
 ### Evidence
@@ -67,6 +83,14 @@ Clone the project repository and verify the project files are present:
 
 Update `App.js` with your full name and the current date:
 
+To personalize the React application, I edited the **App.js** file by executing the following command:
+
+```bash
+nano App.js
+```
+
+This command opens the **App.js** file in the Nano text editor, allowing me to modify the application's content. I updated the file with my full name and the current date as required by the assignment. As shown in **Screenshot 4**, the changes were successfully applied, confirming that the application had been customized before generating the production build.
+
 
 ### Evidence
 
@@ -82,6 +106,15 @@ Update `App.js` with your full name and the current date:
 
 Install dependencies and generate the production build:
 
+After personalizing the application, I installed the required project dependencies and generated the production build using the following commands:
+
+```bash
+npm install
+npm run build
+ls
+```
+
+These commands install all required packages, generate an optimized production build, and verify that the build folder was successfully created. The output confirmed that the build process completed successfully and produced the **build/** directory containing the optimized application files. As shown in **Screenshot 5**, the generated build folder confirms that the application was ready for deployment.
 
 ### Evidence
 
@@ -95,7 +128,15 @@ Install dependencies and generate the production build:
 
 ## Goal
 
-Copy the production build files to the Nginx web root directory.
+Copy the production build files to the Nginx web root directory:
+
+To deploy the React application, I copied the production build files into the Nginx web root directory and verified the deployment by executing the following command:
+
+```bash
+ls /var/www/html/
+```
+
+This command lists the contents of the Nginx web root directory, allowing me to confirm that the React build files were copied successfully. The output displayed the deployed application files, indicating that Nginx now had access to the production build. As shown in **Screenshot 6**, the web root contains the React application files required to serve the website.
 
 
 ### Evidence
@@ -111,6 +152,15 @@ Copy the production build files to the Nginx web root directory.
 ## Goal
 
 Apply Nginx configuration for React routing and confirm the service is active:
+
+To ensure Nginx could correctly serve the React application and support client-side routing, I verified the web server status and reviewed the Nginx configuration by executing the following commands:
+
+```bash
+systemctl is-active nginx
+cat /etc/nginx/sites-available/default
+```
+
+The first command confirms whether the Nginx service is currently running, while the second displays the active server configuration. The output showed that the Nginx service was **active** and that the configuration included the required settings for serving the React application. As shown in **Screenshots 7 and 8**, both the service status and configuration were correctly applied, confirming that the web server was properly configured for deployment.
 
 ### Evidence
 
@@ -130,7 +180,15 @@ Apply Nginx configuration for React routing and confirm the service is active:
 
 ## Goal
 
-Verify the React application is publicly accessible via the server's public IP.
+Verify the React application is publicly accessible via the server's public IP:
+
+To verify that the React application was successfully deployed and publicly accessible, I first retrieved the server's public IP address and then accessed the application through a web browser using the following command:
+
+```bash
+curl ifconfig.me
+```
+
+This command returns the public IP address assigned to the Ubuntu server, allowing me to access the deployed application remotely. The output displayed the server's public IP address, which I entered into a web browser to verify the deployment. As shown in **Screenshot 9**, the public IP address was successfully retrieved, while **Screenshot 10** confirms that the React application loaded correctly in the browser with my personalized details, demonstrating that the deployment was successful.
 
 
 ### Evidence
@@ -153,8 +211,6 @@ Verify the React application is publicly accessible via the server's public IP.
 ![Reactapp Linkedin Post](screenshots/Task02-Linkedin-Post-Capture.png)
 
 #### LinkedIn Post URL
-
-Paste your LinkedIn post URL here:
 
 https://www.linkedin.com/feed/update/urn:li:activity:7483203781153755136/
 
