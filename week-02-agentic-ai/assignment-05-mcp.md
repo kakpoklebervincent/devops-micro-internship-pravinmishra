@@ -114,8 +114,6 @@ Paste your forked repository URL here:
 
 [Forked Rep URL](https://github.com/kakpoklebervincent/Ultimate-Agentic-DevOps-with-Claude-Code)
 
-
-
 ## Security Confirmation
 
 Confirm below:

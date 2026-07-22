@@ -102,7 +102,6 @@ Paste your forked repository URL here:
 [forked repository URL](https://github.com/kakpoklebervincent/Ultimate-Agentic-DevOps-with-Claude-Code.git)
 
 
-
 # Completion Checklist
 
 - [ ] `.claude/skills/` folder created with all 4 skill folders

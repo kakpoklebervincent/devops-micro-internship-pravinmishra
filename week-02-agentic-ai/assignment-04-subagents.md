@@ -117,9 +117,6 @@ Paste your forked repository URL here:
 
 [Forked Repo URL](https://github.com/kakpoklebervincent/Ultimate-Agentic-DevOps-with-Claude-Code)
 
-
-
-
 # Completion Checklist
 
 - [ ] `.claude/agents/` folder contains all 3 agent files

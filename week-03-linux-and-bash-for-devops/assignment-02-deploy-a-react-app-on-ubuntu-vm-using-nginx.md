@@ -213,12 +213,11 @@ This command returns the public IP address assigned to the Ubuntu server, allowi
 #### LinkedIn Post URL
 
 https://www.linkedin.com/feed/update/urn:li:activity:7483203781153755136/
-
 ---
 
 #### Screenshot — LinkedIn post showing the deployed application
 
-Add your screenshot here.
+
 
 ---
 

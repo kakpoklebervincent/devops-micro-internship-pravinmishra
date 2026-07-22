@@ -105,13 +105,11 @@ Paste your Linkedin post link here:
 
 [Memory.md Linkedin Post](https://lnkd.in/p/eSSVdeHC)
 
-
-
 ## GitHub Repository URL
 
 Paste your forked repository URL here:
 
-[Forked Repo URL]()
+[Forked Repo URL](https://github.com/kakpoklebervincent/Ultimate-Agentic-DevOps-with-Claude-Code)
 
 ---
 

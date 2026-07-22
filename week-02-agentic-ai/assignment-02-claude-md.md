@@ -90,8 +90,7 @@ Paste your forked repository URL here:
 
 https://github.com/kakpoklebervincent/Ultimate-Agentic-DevOps-with-Claude-Code
 
-
-
+---
 
 # Completion Checklist
 

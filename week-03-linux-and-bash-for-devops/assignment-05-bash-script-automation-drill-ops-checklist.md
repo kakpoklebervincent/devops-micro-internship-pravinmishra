@@ -517,7 +517,7 @@ The script stores information using variables, manages a collection of DevOps to
 
 Paste your LinkedIn post URL here:
 
-https://www.linkedin.com/posts/vincent-kleber-kakpo-8b920b88_devops-linux-nginx-share-7485334359407857664-ShUJ/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABKKZ00BSvPefUkOzJsZr6-0-A2NhIYUniE
+https://www.linkedin.com/posts/vincent-kleber-kakpo-8b920b88_devops-linux-nginx-share-7485334359407857664-ShUJ
 
 ---
 

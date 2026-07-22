@@ -130,7 +130,7 @@ Write as if a journalist is writing about you **3 to 7 years from now** (not 20 
 
 Include this line:
 
-> **P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). You can start your DevOps journey by joining this [Discord community](https://discord.pravinmishra.com/) ( https://discord.pravinmishra.com/ ).**
+> **P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-blog&utm_campaign=cohort3**
 
 ## Your Article
 
@@ -152,7 +152,6 @@ This is part of DevOps Micro Internship (DMI) Cohort 3 with Agentic AI, by Pravi
 https://www.linkedin.com/posts/vincent-kleber-kakpo-8b920b88_devops-cloudcomputing-agenticai-share-7477685853574578176-1Mdi/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABKKZ00BSvPefUkOzJsZr6-0-A2NhIYUniE
 
 ![Linkedinpostscreenshot](screenshots/assignment3_version2_post.png)
-
 
 
 # Assignment 4. Have you ever cut corners (unethical / dishonest / shortcut behavior — not necessarily illegal)? If yes, how did it make you feel?
@@ -382,8 +381,8 @@ https://www.linkedin.com/posts/vincent-kleber-kakpo-8b920b88_devops-cloudcomputi
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL: **ADD LINK HERE**  
-- Blog / Medium : **ADD LINK HERE**  
+- LinkedIn Post URL: (https://www.linkedin.com/posts/vincent-kleber-kakpo-8b920b88_devops-cloudcomputing-agenticai-share-7477020812269572096-b-Eh/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABKKZ00BSvPefUkOzJsZr6-0-A2NhIYUniE)  
+- Blog / Medium :(https://kakpoklebervincent.hashnode.dev/from-repetition-to-reinvention-why-i-chose-to-start-again)|
 
 ---
 
