@@ -541,7 +541,7 @@ The AI skill was restricted to Bash, Read, and Grep tools only, with no Write ac
 
 #### LinkedIn Post URL
 
-`Add your URL here`
+(https://www.linkedin.com/posts/vincent-kleber-kakpo-8b920b88_dmibypravinmishra-devops-linux-ugcPost-7485902572508221440-ad-i)
 
 ---
 
@@ -553,7 +553,7 @@ The AI skill was restricted to Bash, Read, and Grep tools only, with no Write ac
 
 # GitHub Repository URL
 
-`Add your URL here`
+https://github.com/kakpoklebervincent/devops-micro-internship-pravinmishra/tree/main/week-03-linux-and-bash-for-devops
 
 ---
 
