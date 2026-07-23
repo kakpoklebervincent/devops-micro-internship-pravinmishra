@@ -547,7 +547,7 @@ The AI skill was restricted to Bash, Read, and Grep tools only, with no Write ac
 
 #### Screenshot — Published LinkedIn post
 
-![Screenshot – LinkedIn Post](screenshots/Ass-06-Linkedin-Post.png)
+![Screenshot – LinkedIn Post](screenshots/Ass-06-Linkedin-Post.PNG)
 
 ---
 
