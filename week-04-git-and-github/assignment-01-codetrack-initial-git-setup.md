@@ -6,7 +6,7 @@ Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
 
 ## Purpose
 
-In this assignment, you will set up Git correctly on your local machine before starting the CodeTrack project. You will create a local repository and configure your Git identity at both the repository level (local) and the machine level (global). This assignment is local only — you will not push anything to GitHub yet.
+In this assignment, I set up Git correctly on my local machine before starting the CodeTrack project. I created a local repository and configured my Git identity at both the repository level (local) and the machine level (global). This assignment is local only, nothing was pushed to GitHub yet.
 
 ---
 
@@ -16,17 +16,19 @@ In this assignment, you will set up Git correctly on your local machine before s
 
 Create a `CodeTrack` project folder and initialize it as a Git repository.
 
+I created a dedicated `CodeTrack` project folder separate from the DMI course repository, under `~/Documents/DMI3/projects/CodeTrack`, so the project would have its own independent Git history rather than being nested inside another repository. Inside that folder, I ran `git init`, which created a `.git` directory and confirmed the repository was initialized with the message "Initialized empty Git repository." I then verified this with `ls -a`, which listed `.git/` alongside the current and parent directory entries, confirming the folder was now a valid Git repository.
+
 ### Evidence
 
 #### Screenshot 1 — Output of `git init` inside `CodeTrack` showing "Initialized empty Git repository"
 
-Add your screenshot here.
+![Screenshot 1 – Git Init](screenshots/Week-04-Ass-01-Task-01-Git-Init.png)
 
 ---
 
 #### Screenshot 2 — Output of `ls -a` showing the `.git` folder
 
-Add your screenshot here.
+![Screenshot 2 – Git Directory](screenshots/Week-04-Ass-01-Task-01-CodeTrack-Git-Directory.png)
 
 ---
 
@@ -34,7 +36,7 @@ Add your screenshot here.
 
 **1. What is the `.git` folder, and why does it matter?**
 
-Add your answer here.
+The `.git` folder is the hidden directory Git creates when you run `git init`. It is where Git stores everything about the repository's history and configuration, including commits, branches, tags, the staging area, and local settings like `user.name` and `user.email`. It matters because it is the actual database that makes a folder a Git repository. If I delete `.git`, I lose all version history and the folder becomes a plain, untracked directory again, even though the project files themselves stay untouched.
 
 ---
 
@@ -42,13 +44,15 @@ Add your answer here.
 
 ## Goal
 
-Set your Git username and email for the `CodeTrack` repository only, using `git config --local`.
+Set my Git username and email for the `CodeTrack` repository only, using `git config --local`.
+
+I set my Git identity for this repository only, using `git config --local user.name` and `git config --local user.email`. This ensures that any commits made inside `CodeTrack` are attributed specifically to this configuration, independent of whatever identity might be set globally on the machine. I verified the settings with `git config --local --list`, which confirmed both `user.name=Kleber Vincent` and `user.email` were correctly stored alongside Git's default core settings for the repository.
 
 ### Evidence
 
-#### Screenshot 3 — Output of `git config --local --list` showing your `user.name` and `user.email`
+#### Screenshot 3 — Output of `git config --local --list` showing `user.name` and `user.email`
 
-Add your screenshot here.
+![Screenshot 3 – Local Config](screenshots/Week-04-Ass-01-Task-02-Local-Config.png.png)
 
 ---
 
@@ -56,51 +60,25 @@ Add your screenshot here.
 
 ## Goal
 
-Set a global Git username and email for this machine using `git config --global`. Note that CodeTrack's local settings still take priority over these.
+Set a global Git username and email for this machine using `git config --global`, understanding that CodeTrack's local settings still take priority over these.
+
+I set a global Git identity for this machine using `git config --global user.name` and `git config --global user.email`, so that any future repository I create without a local override will automatically use this identity. I verified the global settings with `git config --global --list`, which confirmed `user.name=Kleber Vincent` and my email were correctly set at the machine level. Because `CodeTrack` already has its own local identity configured, Git will continue to use the local values for this repository specifically, only falling back to the global values in repositories that don't define their own local override.
 
 ### Evidence
 
-#### Screenshot 4 — Output of `git config --global --list` showing your `user.name` and `user.email`
+#### Screenshot 4 — Output of `git config --global --list` showing `user.name` and `user.email`
 
-Add your screenshot here.
-
----
-
-# Submission Instructions
-
-- Add all required screenshots in your submission
-- Full Name must be visible in required screenshots
-- Do not expose passwords, access tokens, or private keys
+![Screenshot 4 – Global Config](screenshots/Week-04-Ass-01-Task-03-Global-Config.png)
 
 ---
 
-# Completion Checklist
+## Completion Checklist
 
-- [ ] `CodeTrack` folder created and initialized as a Git repository (Screenshots 1–2)
-- [ ] Explanation of the `.git` folder written in your own words
-- [ ] Local `user.name` and `user.email` configured and verified (Screenshot 3)
-- [ ] Global `user.name` and `user.email` configured and verified (Screenshot 4)
-- [ ] No sensitive data exposed
-
----
-
-## 📌 About DMI & CloudAdvisory
-
-DevOps Micro Internship (DMI) is a project-based DevOps program run by Pravin Mishra (The CloudAdvisory) focused on real-world execution, systems thinking, and career readiness.
-
-It helps learners build strong DevOps foundations with hands-on experience.
-
----
-
-## 📌 Resources
-
-- 🌐 DMI Official Website: https://pravinmishra.com/dmi  
-- 🎓 DevOps for Beginners (Udemy): https://www.udemy.com/course/devops-for-beginners-docker-k8s-cloud-cicd-4-projects/  
-- 🎓 Agentic AI DevOps with Claude Code: https://www.udemy.com/course/ultimate-agentic-ai-devops-with-claude-code/  
-- 🎓 DevOps with Claude Code: Terraform, EKS, ArgoCD & Helm: https://www.udemy.com/course/devops-with-claude-code-terraform-eks-argocd-helm/  
-- ▶️ YouTube Playlist: https://www.youtube.com/playlist?list=PLFeSNDtI4Cho  
-- 🔗 Pravin Mishra (LinkedIn): https://www.linkedin.com/in/pravin-mishra-aws-trainer/  
-- 🏢 CloudAdvisory (LinkedIn): https://www.linkedin.com/company/thecloudadvisory/
+- [x] `CodeTrack` folder created and initialized as a Git repository (Screenshots 1–2)
+- [x] Explanation of the `.git` folder written in my own words
+- [x] Local `user.name` and `user.email` configured and verified (Screenshot 3)
+- [x] Global `user.name` and `user.email` configured and verified (Screenshot 4)
+- [x] No sensitive data exposed
 
 ---
 
