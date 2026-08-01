@@ -196,4 +196,40 @@ Since `feature/contact-page` was fully merged into `master`, I deleted it with `
 
 ---
 
+
+# Completion Checklist
+
+- [ ] Repository confirmed clean on the default branch (Screenshot 1)
+- [ ] `feature/contact-page` created and checked out (Screenshot 2)
+- [ ] `contact.html` added in its own commit (Screenshots 3–5)
+- [ ] Homepage Contact link added in a separate commit (Screenshots 6–8)
+- [ ] Default branch proven unchanged before merge (Screenshots 9–10)
+- [ ] Feature branch merged and Contact page verified (Screenshots 11–13)
+- [ ] Graph history reviewed (Screenshot 14)
+- [ ] Optional cleanup completed (Screenshot 15)
+- [ ] No sensitive data exposed
+
+---
+
+## 📌 About DMI & CloudAdvisory
+
+DevOps Micro Internship (DMI) is a project-based DevOps program run by Pravin Mishra (The CloudAdvisory) focused on real-world execution, systems thinking, and career readiness.
+
+It helps learners build strong DevOps foundations with hands-on experience.
+
+---
+
+## 📌 Resources
+
+- 🌐 DMI Official Website: https://dmi.pravinmishra.com?utm_source=github&utm_medium=readme  
+- 🎓 University: https://university.pravinmishra.com?utm_source=github&utm_medium=readme  
+- 💬 Discord Community: https://discord.pravinmishra.com?utm_source=github&utm_medium=readme  
+- 📝 Blog: https://dmi.pravinmishra.com/blog?utm_source=github&utm_medium=readme  
+- ▶️ YouTube Playlist: https://www.youtube.com/playlist?list=PLFeSNDtI4Cho  
+- 🔗 Pravin Mishra (LinkedIn): https://www.linkedin.com/in/pravin-mishra-aws-trainer/  
+- 🏢 CloudAdvisory (LinkedIn): https://www.linkedin.com/company/thecloudadvisory/
+
+---
+
 *This submission is part of DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track.*
+
