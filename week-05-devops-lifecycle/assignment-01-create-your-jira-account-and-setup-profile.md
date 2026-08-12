@@ -6,7 +6,7 @@ Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
 
 ## Purpose
 
-In this assignment, you will create or access a Jira Software Cloud account, verify your Atlassian identity when required, set up a professional profile, and explore the Jira dashboard and project areas. This prepares you for real-world Agile and DevOps collaboration, where Jira is commonly used to plan work, assign tickets, and track progress. You will explore the workspace only — you will not create any issues in this assignment.
+In this assignment, I created or accessed a Jira Software Cloud account, verified my Atlassian identity, set up a professional profile, and explored the Jira dashboard and project areas. This prepares me for real-world Agile and DevOps collaboration, where Jira is commonly used to plan work, assign tickets, and track progress. I explored the workspace only and did not create any issues in this assignment.
 
 ---
 
@@ -16,11 +16,13 @@ In this assignment, you will create or access a Jira Software Cloud account, ver
 
 Create or access your Jira Cloud account and reach the Jira Software workspace successfully.
 
+I attempted to recover an existing Atlassian account from a previous cohort rather than starting fresh, using the login page at id.atlassian.com/login. The account and site (klebertossou.atlassian.net) were still active, so I logged in directly rather than needing a password reset. After selecting the Scrum template for my first space, I landed on the main workspace showing "Hello, Kleber Vincent Kakpo" with my full name clearly displayed, confirming successful access.
+
 ### Evidence
 
 #### Screenshot 1 — Jira welcome page, dashboard, or main workspace after successful login, with your name or avatar visible
 
-Add your screenshot here.
+![Screenshot 1 – Jira Workspace Login](screenshots/Week-05-Ass-01-Task-01-Jira-Workspace-Login.png)
 
 ---
 
@@ -30,21 +32,19 @@ Add your screenshot here.
 
 Confirm your email address if Atlassian requests verification.
 
+Since I was uncertain whether the original account (created during Cohort 2) used Google sign-in or email/password, I checked Account settings → Email, which confirmed "Log in with Google enabled" and that the account is connected to a Google account. This means Google handled identity verification at signup, so no separate Atlassian email verification step was required. I initially checked the "Connected apps" tab expecting to find this confirmation there, but that tab only tracks third-party marketplace app permissions, not the account's login method; the correct location was the "Email" tab.
+
 ### Evidence
 
 #### Screenshot 2 (if applicable) — Confirmation screen after email verification, or the inbox showing the Atlassian verification email subject
 
-Add your screenshot here.
+![Screenshot 2 – Google Sign-in Confirmation](screenshots/Week-05-Ass-01-Task-02-Google-Signin-Confirmation.png)
 
 ---
 
 ### Notes
 
-If you signed up with Google and no separate email verification was required, include the following statement instead of Screenshot 2:
-
 > I signed up using Google, and Atlassian did not require separate email verification.
-
-Add any additional notes here.
 
 ---
 
@@ -54,11 +54,13 @@ Add any additional notes here.
 
 Update your Jira profile with your full name, a job title or role (e.g. "Aspiring DevOps Engineer"), and a short professional bio.
 
+I navigated to Account settings → Profile and visibility, updated the Full name to "Kleber Vincent Kakpo," set the Job title to "Wireless RAN Team Lead | Exploring Cloud Native DevOps," and used the "Working with you" field as the bio, since this version of the Atlassian profile interface does not have a separate dedicated bio box. I added: "Wireless RAN engineer with 15+ years in telecom, currently building DevOps and cloud-native skills through hands-on practice with Agile, CI/CD, and Kubernetes."
+
 ### Evidence
 
 #### Screenshot 3 — Updated profile page showing your full name, role/title, and bio
 
-Add your screenshot here.
+![Screenshot 3 – Profile Setup](screenshots/Week-05-Ass-01-Task-03-Profile-Setup.png)
 
 ---
 
@@ -68,39 +70,31 @@ Add your screenshot here.
 
 Locate the project list and open a project's Board or Backlog, and view Project settings, without creating, editing, or deleting any issues.
 
+This Jira interface uses "Spaces" instead of "Projects" as its terminology, so navigation was adjusted accordingly, though the underlying structure and purpose match the assignment brief exactly. I navigated to Spaces from the top menu, confirmed "My Scrum Space" was listed with my full name as Lead, then opened the space and viewed the Backlog tab, which showed "SCRUM Sprint 1" with zero work items, as expected since no issues were created. Finally, I opened Space settings via the "..." menu and browsed through Details, Access, Notifications, Automation, Fields, Work types, and Features without modifying anything.
+
 ### Evidence
 
 #### Screenshot 4 — "View all projects" page showing at least one project
 
-Add your screenshot here.
+![Screenshot 4 – View All Projects](screenshots/Week-05-Ass-01-Task-04-View-All-Projects.png)
 
 ---
 
 #### Screenshot 5 — Opened project showing either the Board or Backlog screen
 
-Add your screenshot here.
+![Screenshot 5 – Backlog View](screenshots/Week-05-Ass-01-Task-04-Backlog-View.png)
 
 ---
 
-# Submission Instructions
+## Completion Checklist
 
-- Add all five required screenshots, unless separate email verification was not required
-- If Screenshot 2 is not applicable, include the Google sign-in note instead
-- Your full name or profile avatar must be visible where specifically required
-- Do not expose passwords, verification codes, private email content, account recovery information, or other sensitive information
-- You may hide or blur your email address if it appears in a screenshot
-
----
-
-# Completion Checklist
-
-- [ ] Task 1: Jira Software Cloud account created or existing account accessed (Screenshot 1)
-- [ ] Task 2: Email verification completed, or a Google sign-in note included (Screenshot 2 or Notes)
-- [ ] Task 3: Professional profile updated with full name, role/title, and bio (Screenshot 3)
-- [ ] Task 4: Projects page, Board or Backlog, and Project settings explored without making changes (Screenshots 4 & 5)
-- [ ] No Jira issues created
-- [ ] Full Name visible in required screenshots
-- [ ] No sensitive data exposed
+- [x] Task 1: Jira Software Cloud account created or existing account accessed (Screenshot 1)
+- [x] Task 2: Email verification completed, or a Google sign-in note included (Screenshot 2 or Notes)
+- [x] Task 3: Professional profile updated with full name, role/title, and bio (Screenshot 3)
+- [x] Task 4: Projects page, Board or Backlog, and Project settings explored without making changes (Screenshots 4 & 5)
+- [x] No Jira issues created
+- [x] Full Name visible in required screenshots
+- [x] No sensitive data exposed
 
 ---
 
