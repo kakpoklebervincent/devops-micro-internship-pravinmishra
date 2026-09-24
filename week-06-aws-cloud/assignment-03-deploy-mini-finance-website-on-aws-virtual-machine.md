@@ -16,7 +16,11 @@ In this assignment, you will deploy the Mini Finance static HTML website on an A
 
 Launch an Amazon Linux 2 or Ubuntu EC2 instance in a public subnet, and configure its security group to allow SSH (22) and HTTP (80).
 
-> No screenshot required for this task. Completion is verified through Task 4.
+I launched a new EC2 instance named `mini-finance-server` using the **Ubuntu** AMI on a `t2.micro` instance type, in a public subnet with auto-assigned public IP enabled. During launch, I created a new key pair for SSH access and configured the attached security group to allow inbound traffic on **port 22 (SSH)** and **port 80 (HTTP)**, since the instance needs to be both administrable remotely and publicly reachable as a website.
+
+No terminal commands were required for this task, since it was done entirely through the AWS Console. Once launched, the instance reached the **Running** state with public IP `18.234.220.43`.
+
+No screenshot required for this task. Completion is verified through Task 4.
 
 ---
 
@@ -26,7 +30,24 @@ Launch an Amazon Linux 2 or Ubuntu EC2 instance in a public subnet, and configur
 
 Connect to the instance using SSH and install Nginx or Apache.
 
-> No screenshot required for this task. Completion is verified through Task 4.
+I connected to the instance over SSH using the key pair created in Task 1, then installed Nginx as the web server.
+
+```bash
+chmod 400 mini-finance.pem
+ssh -i mini-finance.pem ubuntu@18.234.220.43
+
+sudo apt update
+sudo apt install -y nginx
+```
+
+- `chmod 400 mini-finance.pem`: restricts the private key file's permissions so only I can read it, since SSH refuses to use a key file that's too open.
+- `ssh -i mini-finance.pem ubuntu@18.234.220.43`: opens a remote shell session on the instance, authenticating with the private key rather than a password. `ubuntu` is the default login user on Ubuntu AMIs.
+- `sudo apt update`: refreshes Ubuntu's package index so the latest available package versions are known before installing anything.
+- `sudo apt install -y nginx`: installs the Nginx web server, with `-y` auto-confirming the install prompt.
+
+The SSH session opened successfully, and Nginx installed without errors, with its systemd service created and ready to run.
+
+No screenshot required for this task. Completion is verified through Task 4.
 
 ---
 
@@ -34,9 +55,23 @@ Connect to the instance using SSH and install Nginx or Apache.
 
 ## Goal
 
-Clone the Mini Finance repository (`https://github.com/pravinmishraaws/mini_finance.git`) and copy the site files to the web server's root directory.
+Clone the Mini Finance repository and copy the site files to the web server's root directory.
 
-> No screenshot required for this task. Completion is verified through Task 4.
+I cloned the Mini Finance repository directly onto the EC2 instance, then copied its contents into Nginx's default web root so the server would serve the site's files.
+
+```bash
+git clone https://github.com/pravinmishraaws/mini_finance.git
+ls mini_finance
+sudo cp -r mini_finance/* /var/www/html/
+ls /var/www/html
+```
+
+- `git clone https://github.com/pravinmishraaws/mini_finance.git`: downloads the Mini Finance site's source code onto the instance.
+- `ls mini_finance`: lists the cloned folder's contents to confirm `index.html` and the other site files were present before copying anything.
+- `sudo cp -r mini_finance/* /var/www/html/`: copies everything inside the `mini_finance` folder into `/var/www/html`, Nginx's default document root. The `*` copies the folder's contents rather than the folder itself, and `-r` copies subfolders recursively so images, CSS, JS, and fonts all came along. `sudo` was needed since `/var/www/html` is owned by root.
+- `ls /var/www/html`: confirmed the files landed correctly, with `index.html` sitting alongside `profile.html`, `wallet.html`, `settings.html`, `css/`, `js/`, `fonts/`, and `images/`.
+
+No screenshot required for this task. Completion is verified through Task 4.
 
 ---
 
@@ -46,21 +81,31 @@ Clone the Mini Finance repository (`https://github.com/pravinmishraaws/mini_fina
 
 Start the web server and confirm the Mini Finance website is accessible through the EC2 public IP.
 
+I started the Nginx service, enabled it to launch automatically on any future reboot, and confirmed it was running before testing the site in a browser.
+
+```bash
+sudo systemctl start nginx
+sudo systemctl enable nginx
+sudo systemctl status nginx
+```
+
+- `sudo systemctl start nginx`: starts the Nginx service so it begins listening for HTTP requests on port 80.
+- `sudo systemctl enable nginx`: configures Nginx to start automatically if the instance is ever rebooted.
+- `sudo systemctl status nginx`: confirms Nginx is actively running rather than just installed.
+
+I then opened `http://18.234.220.43` in a browser. The Mini Finance dashboard loaded fully, with the balance card, spending history pie chart, profile details, and recent transactions all rendering correctly with styling and images intact, confirming the deployment was successful end to end.
+
 ### Evidence
 
-### Screenshots Required
+#### Screenshot — Mini Finance website running in the browser
 
-Take one screenshot showing the Mini Finance website running in the browser.
-
-Add your screenshot here.
+![Screenshot – Website Live](screenshots/Week-06-Ass-03-Task-04-Website-Live.png)
 
 ---
 
 #### Public IP URL
 
-Paste the public IP address of your EC2 instance here (e.g. `http://3.91.105.10`):
-
-`Add your URL here`
+`http://18.234.220.43`
 
 ---
 
